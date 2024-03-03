@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+  @apply px-4 sm:px-8 md:px-8 lg:px-14 xl:px-24 2xl:px-0 max-w-[1330px] mx-auto;
+}
+
+.max-device {
+  @apply 2xl:flex 2xl:justify-evenly 2xl:pt-24;
+}
+
+/* .secons-max-device {
+  @apply xl:flex xl:justify-evenly xl:pt-24;
+}
+.third-max-device {
+  @apply lg:text-end lg:flex lg:justify-evenly lg:pt-24;
+}
+.Medium-device {
+  @apply md:text-center md:font-semibold;
+}
+.small-device {
+  @apply sm:text-center sm:block sm:pt-10;
+} */
